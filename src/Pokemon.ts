@@ -1,3 +1,4 @@
+//POkemon class
 export class Pokemon {
     name: string;
     speed: number;
