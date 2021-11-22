@@ -29,11 +29,8 @@ pipeline {
   post {
     success {
       echo "success path"
-    }
-  }
-  
-  success {
       discordSend description: "Jenkins Pipeline Build {Projet de BG}", footer: "Start Build", link: "http://pas_de_link.com", result: currentBuild.currentResult, title: "Hello bg", webhookURL: "https://discord.com/api/webhooks/902202700924596274/mvQ5-hZHRgi1baxHWY6xd0WjkQbYFr-yqWWtmagDBksu4A2tFHzwC7WEcYs1oBIbyXDp"
     }
+  }
   
 }
