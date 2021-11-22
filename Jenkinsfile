@@ -32,7 +32,7 @@ pipeline {
       discordSend description: "Jenkins Pipeline Build {Projet de BG}", footer: "Start Build", link: env.BUILD_URL, result: currentBuild.currentResult, title: "Hello bg", webhookURL: "https://discord.com/api/webhooks/912284109198491678/JSWgHNcVAeu_hIQcZNIC3AsxQmrbr__4JEiIP0WLtC9RPBIU-plnMP9V6W78QuTKkjim"
       /*
       mail(from: "jenkins@ceesiesdomain.nl",
-                to: "frederic.flaceliere@gmail.com",
+                to: "",
                 subject: "That build not failed!",
                 body: "Nothing to see here")
       */
