@@ -8,7 +8,7 @@ import {Manager} from "../src/manager";
 //         console.log("Time's up -- stop!");
 //         callback && callback();
 //     }, 1000);
-// }fv
+// }fver
 
 
 describe("compare between two pokemon",() => {
